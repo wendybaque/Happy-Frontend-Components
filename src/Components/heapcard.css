@@ -1,5 +1,5 @@
 .body {
-    margin-inline: max(0px, (100% - 260px)/2);
+    margin-inline: max(0px, (100% - 100px)/2);
     font: 90%/1.4 system-ui;
 }
 
