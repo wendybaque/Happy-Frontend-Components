@@ -19,6 +19,7 @@ import Texts from "../src/Pages/Texts";
 import Toggles from "../src/Pages/Toggles";
 import Various from "../src/Pages/Various";
 import Contact from "../src/Pages/Contact";
+import Backgrounds from "./Pages/Backgrounds";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/animations" element={<Animations />} />
+          <Route path="/backgrounds" element={<Backgrounds />} />
           <Route path="/cards" element={<Cards />} />
           <Route path="/controls" element={<Controls />} />
           <Route path="/footers" element={<Footers />} />
