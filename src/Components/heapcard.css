@@ -1,63 +1,63 @@
-.body {
-    margin-inline: max(0px, (100% - 100px)/2);
-    font: 90%/1.4 system-ui;
-}
-
 .card {
     position: sticky;
-    top:0;
+    top:10rem;
     background: white;
-    padding: 1.5rem;
+    padding: 1rem;
     box-shadow: 0 -0.5rem 1rem rgba(0, 0, 0, 0.15);
     border-radius: 5px;
 }
 
+.card h3 {
+    font-family: 'poppins';
+    font-weight: bold;
+}
+
 .card:nth-child(1) {
-    top:1rem;
+    top:11rem;
     rotate:1deg;
 }
 
 .card:nth-child(2) {
-    top:2rem;
+    top:12rem;
     rotate:2deg;
 }
 
 .card:nth-child(3) {
-    top:3rem;
+    top:13rem;
     rotate:3deg;
 }
 
 .card:nth-child(4) {
-    top:4rem;
+    top:14rem;
     rotate:4deg;
 }
 
 .card:nth-child(5) {
-    top:5rem;
+    top:15rem;
     rotate:5deg;
 }
 
 .card:nth-child(6) {
-    top:6rem;
+    top:16rem;
     rotate:6deg;
 }
 
 .card:nth-child(7) {
-    top:7rem;
+    top:17rem;
     rotate:7deg;
 }
 
 .card:nth-child(8) {
-    top:8rem;
+    top:18rem;
     rotate:8deg;
 }
 
 .card:nth-child(9) {
-    top:9rem;
+    top:19rem;
     rotate:9deg;
 }
 
 .card:nth-child(10) {
-    top:10rem;
+    top:20rem;
     rotate:10deg;
 }

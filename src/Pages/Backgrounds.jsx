@@ -4,12 +4,12 @@ import AnimatedSquaresBg from "../Components/AnimatedSquaresBg";
 
 const Backgrounds = () => {
   return (
-    <div className="m-4 p-4">
-      <h1 className="flex flex-col text-pink-500 font-poppins">Inputs</h1>
-      <p>Backgrounds with differents styles and designs</p>
+    <div className="m-4 p-4 flex flex-col">
+      <h1 className="flex flex-col items-center text-l font-semibold text-pink-500 font-poppins">Inputs</h1>
+      <p className="flex flex-col items-center text-l m-4">Backgrounds with differents styles and designs</p>
 
       <section className="flex flex-col">
-        <h2 className="m-2 text-purple-500">Animated background colors</h2>
+        <h2 className="m-2 font-semibold text-purple-500">Animated background colors</h2>
         <p>
           Based on{" "}
           <a
@@ -23,7 +23,7 @@ const Backgrounds = () => {
       </section>
 
       <section className="flex flex-col">
-        <h2 className="m-2 text-purple-500">Animated background with squares</h2>
+        <h2 className="font-semibold m-2 text-purple-500">Animated background with squares</h2>
         <p>
           Based on{" "}
           <a

@@ -10,7 +10,7 @@ const MainFooter = () => {
             className="mr-3 h-8"
             alt="Happy Frontend Component Logo"
           />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black text-white">
+          <span className="text-l font-semibold dark:text-black text-white">
             Happy Frontend Components
           </span>
         <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
