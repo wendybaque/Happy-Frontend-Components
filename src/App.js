@@ -1,9 +1,14 @@
-import './App.css';
+import "./App.css";
+import MainFooter from "./main footer/MainFooter";
+import MainHero from "./main hero/MainHero";
+import MainNavbar from "./main navbar/MainNavbar";
 
 function App() {
   return (
-    <div className="text-red-400">
-     HELLO WORLD
+    <div>
+      <MainNavbar />
+      <MainHero />
+      <MainFooter />
     </div>
   );
 }
