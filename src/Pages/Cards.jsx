@@ -1,4 +1,5 @@
 import React from "react";
+import FigcaptionHover from "../Components/FigcaptionHover";
 import HeapCard from "../Components/HeapCard";
 import HoverEffect from "../Components/HoverEffect";
 import InfiniteCarousel from "../Components/InfiniteCarousel";
@@ -41,6 +42,17 @@ const Cards = () => {
             </a>
           </p>
           <InfiniteCarousel />
+        </section>
+
+        <section className="flex flex-col">
+          <h2 className="font-semibold text-purple-500 m-4">Fig Caption on hover card</h2>
+          <p className="m-4">
+            Based on{" "}
+            <a href="https://www.instagram.com/p/CkSNLjVuR4a/" alt="redirection vers le code de baby_wolf_codes">
+              inspired by baby_wolf_codes
+            </a>
+          </p>
+          <FigcaptionHover />
         </section>
       </div>
     </div>

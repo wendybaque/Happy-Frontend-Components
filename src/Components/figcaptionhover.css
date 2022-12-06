@@ -1,0 +1,26 @@
+figure {
+    display: grid;
+    grid-template: "stack";
+}
+
+figure > * {
+    grid-area: stack;
+}
+
+figure > img {
+    object-fit: contain;
+    height: 50%;
+    width: 100%;
+}
+
+figure > figcaption {
+    opacity: 0;
+    transition: opacity 200ms;
+    font-family: 'poppins';
+    padding: 50px;
+    font-weight: bold;
+}
+
+figure:hover > figcaption {
+    opacity:1;
+}
