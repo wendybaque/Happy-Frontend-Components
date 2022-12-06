@@ -1,0 +1,12 @@
+.heart {
+    color:palevioletred;
+    font-size: 5rem;
+    animation: heartbeat 0.5s infinite alternate;
+    transform-origin: center;
+}
+
+@keyframes heartbeat {
+    to {
+        transform: scale(1.5);
+    }
+}
