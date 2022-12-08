@@ -1,4 +1,5 @@
 import React from "react";
+import AnimatedColourText from "../Components/AnimatedColourText";
 import HeartBeat from "../Components/HeartBeat";
 import Overlap from "../Components/Overlap";
 
@@ -41,6 +42,20 @@ const Various = () => {
           <Overlap />
         </section>
       </div>
+
+      <section className="flex flex-col">
+          <h2 className="font-semibold text-purple-500">Animated colour text</h2>
+          <p className="pb-10">
+            Based on{" "}
+            <a
+              href="https://www.instagram.com/p/Cj7jr7KD5cU/"
+              alt="redirection vers le code de vlt_dev"
+            >
+              vlt_dev code
+            </a>
+          </p>
+          <AnimatedColourText />
+        </section>
     </div>
   );
 };
