@@ -10,7 +10,6 @@ import Page404 from "../src/Pages/Page404";
 import Home from "../src/Pages/Home";
 import Animations from "../src/Pages/Animations";
 import Cards from "../src/Pages/Cards";
-import Controls from "../src/Pages/Controls";
 import Footers from "../src/Pages/Footers";
 import Hero from "../src/Pages/Hero";
 import Inputs from "../src/Pages/Inputs";
@@ -20,6 +19,8 @@ import Toggles from "../src/Pages/Toggles";
 import Various from "../src/Pages/Various";
 import Contact from "../src/Pages/Contact";
 import Backgrounds from "./Pages/Backgrounds";
+import Buttons from "./Pages/Buttons";
+import Loaders from "./Pages/Loaders";
 
 function App() {
   return (
@@ -30,11 +31,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/animations" element={<Animations />} />
           <Route path="/backgrounds" element={<Backgrounds />} />
+          <Route path="/buttons" element={<Buttons />} />
           <Route path="/cards" element={<Cards />} />
-          <Route path="/controls" element={<Controls />} />
           <Route path="/footers" element={<Footers />} />
           <Route path="/hero" element={<Hero />} />
           <Route path="/inputs" element={<Inputs />} />
+          <Route path="/loaders" element={<Loaders />} />
           <Route path="/navbars" element={<Navbars />} />
           <Route path="/texts" element={<Texts />} />
           <Route path="/toggles" element={<Toggles />} />
