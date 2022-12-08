@@ -27,7 +27,7 @@ const Cards = () => {
           <p className="m-4">
             Based on{" "}
             <a href="https://github.com/S-Najim-S/instagram-reels-source-code/tree/main/image-hover-effect" alt="redirection vers le code de S-Najim-S">
-              inspired by S-Najim-S code
+              S-Najim-S code
             </a>
           </p>
           < HoverEffect/>
@@ -38,7 +38,7 @@ const Cards = () => {
           <p className="m-4">
             Based on{" "}
             <a href="https://codepen.io/medrupaloscil/pen/OJNrLLX" alt="redirection vers le code de Fehrenbach Baptiste">
-              inspired by Fehrenbach Baptiste code
+             Fehrenbach Baptiste code
             </a>
           </p>
           <InfiniteCarousel />
@@ -49,7 +49,7 @@ const Cards = () => {
           <p className="m-4">
             Based on{" "}
             <a href="https://www.instagram.com/p/CkSNLjVuR4a/" alt="redirection vers le code de baby_wolf_codes">
-              inspired by baby_wolf_codes
+              baby_wolf_codes
             </a>
           </p>
           <FigcaptionHover />
