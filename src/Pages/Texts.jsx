@@ -12,14 +12,14 @@ const Texts = () => {
       </p>
 
       <section className="flex flex-col">
-        <h2 className="font-semibold text-purple-500">Heart Beat</h2>
+        <h2 className="font-semibold text-purple-500">Neon Text</h2>
         <p className="pb-10">
           Based on{" "}
           <a
             href="https://www.instagram.com/p/Ce2mqa3pttD/"
             alt="redirection vers le code de baby_wolf_codes"
           >
-            inspired by baby_wolf_codes
+            baby_wolf_codes
           </a>
         </p>
         <NeonText />

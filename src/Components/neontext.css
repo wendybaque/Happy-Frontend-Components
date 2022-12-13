@@ -3,6 +3,8 @@
   font-family: "poppins";
   color: white;
   animation: neon 5s infinite;
+  font-weight: bolder;
+  font-size: 2rem;
 }
 
 @keyframes neon {
@@ -12,7 +14,7 @@
   59%,
   61%,
   100% {
-    text-shadow: white 0 0 12px, red 0 0 24px, red 0 0 36px;
+    text-shadow: white 0 0 12px, palevioletred 0 0 24px, purple 0 0 36px;
   }
 
   40%,
