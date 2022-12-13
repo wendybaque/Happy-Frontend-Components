@@ -9,7 +9,7 @@ const MainHero = () => {
           Some frontend components to reuse them and have them quickly at hand.
           </h1>
           <p class="m-4 p-4 mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
-            In Javascript, React, Tailwind... and more all !
+            In React & Tailwind... and simple Html & CSS !
           <br/>
           <span>Navigate and explore with top right menu.</span>
           You can copy, use and modify them as you wish !

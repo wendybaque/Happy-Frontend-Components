@@ -1,5 +1,6 @@
 import React from "react";
 import FigcaptionHover from "../Components/FigcaptionHover";
+import FlipCard from "../Components/FlipCard";
 import HeapCard from "../Components/HeapCard";
 import HoverEffect from "../Components/HoverEffect";
 import InfiniteCarousel from "../Components/InfiniteCarousel";
@@ -12,7 +13,7 @@ const Cards = () => {
         <p className="flex flex-col items-center text-l m-4">Cards with differents styles and designs</p>
 
         <section className="flex flex-col">
-          <h2 className="font-semibold text-purple-500">Card title</h2>
+          <h2 className="font-semibold text-purple-500">Heap cards</h2>
           <p className="pb-10">
             Based on{" "}
             <a href="https://www.instagram.com/p/Ck5pKIIDrmn/" alt="redirection vers le code de @webdevlessons">
@@ -53,6 +54,17 @@ const Cards = () => {
             </a>
           </p>
           <FigcaptionHover />
+        </section>
+
+        <section className="flex flex-col">
+          <h2 className="font-semibold text-purple-500 m-4">On card flip effect</h2>
+          <p className="m-4">
+            Based on{" "}
+            <a href="https://www.instagram.com/p/CfzEDhCDQkz/" alt="redirection vers le code de avance_dev">
+              avance_dev
+            </a>
+          </p>
+          <FlipCard />
         </section>
       </div>
     </div>
