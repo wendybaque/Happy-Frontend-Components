@@ -7,7 +7,7 @@ const FigcaptionHover = () => {
       <figure>
         <img
           src="https://cdn.pixabay.com/photo/2016/08/10/18/41/cosmos-1584034_960_720.jpg"
-          alt=""
+          alt="background"
         />
         <figcaption>Hello World !</figcaption>
       </figure>

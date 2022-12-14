@@ -1,5 +1,6 @@
 import React from "react";
 import NeonText from "../Components/NeonText";
+import RolloText from "../Components/RolloText";
 
 const Texts = () => {
   return (
@@ -23,6 +24,20 @@ const Texts = () => {
           </a>
         </p>
         <NeonText />
+      </section>
+
+      <section className="flex flex-col">
+        <h2 className="font-semibold text-purple-500">Rollo Text</h2>
+        <p className="pb-10">
+          Based on{" "}
+          <a
+            href="https://www.instagram.com/p/ClxVR0TPFAi/"
+            alt="redirection vers le code de web_talks"
+          >
+            web_talks
+          </a>
+        </p>
+        <RolloText/>
       </section>
     </div>
   );
