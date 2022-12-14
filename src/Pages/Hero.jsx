@@ -1,5 +1,6 @@
 import React from 'react'
 import ParallaxHero from '../Components/ParallaxHero'
+import ParallaxScrolling from '../Components/ParallaxScrolling'
 import WavyHero from '../Components/WavyHero'
 
 const Hero = () => {
@@ -23,7 +24,7 @@ const Hero = () => {
       </section>
 
       <section className="flex flex-col">
-        <h2 className="m-2 font-semibold text-purple-500">Animated wavy hero</h2>
+        <h2 className="m-2 font-semibold text-purple-500">Parallax Hero</h2>
         <p>
           Based on{" "}
           <a
@@ -34,6 +35,20 @@ const Hero = () => {
           </a>
         </p>
         <ParallaxHero />
+      </section>
+
+      <section className="flex flex-col">
+        <h2 className="m-2 font-semibold text-purple-500">Scrolling parallax Hero</h2>
+        <p>
+          Based on{" "}
+          <a
+            href="https://codepen.io/Denis-Alex/pen/dyvLYPa"
+            alt="redirection vers le code de Denis Alex "
+          >
+            Denis Alex
+          </a>
+        </p>
+        < ParallaxScrolling/>
       </section>
     </div>
   )

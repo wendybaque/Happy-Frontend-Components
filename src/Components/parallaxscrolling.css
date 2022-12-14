@@ -1,0 +1,40 @@
+.parallax{
+    background: url('https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') repeat fixed 100%;
+    background-size: cover;
+    color: aliceblue;
+    border-radius: 10px;
+    height: 50vh;
+
+}
+.parallax-1{
+    background: url('https://images.pexels.com/photos/3369569/pexels-photo-3369569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') repeat fixed 100%;
+    background-size: cover;
+    color: aliceblue;
+    border-radius: 10px;
+    height: 50vh;
+
+}
+.parallax-2{
+    background: url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') repeat fixed 100%;
+    background-size: cover;
+    color: aliceblue;
+    border-radius: 10px;
+    height: 50vh;
+}
+.parallax-inner{
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.scrolling-h3{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'poppins';
+
+}
+.scrolling-h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'poppins';
+}
