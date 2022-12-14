@@ -1,4 +1,5 @@
 import React from 'react'
+import ParallaxHero from '../Components/ParallaxHero'
 import WavyHero from '../Components/WavyHero'
 
 const Hero = () => {
@@ -19,6 +20,20 @@ const Hero = () => {
           </a>
         </p>
         <WavyHero />
+      </section>
+
+      <section className="flex flex-col">
+        <h2 className="m-2 font-semibold text-purple-500">Animated wavy hero</h2>
+        <p>
+          Based on{" "}
+          <a
+            href="https://codepen.io/DuskoStamenic/pen/ZEvBKdw"
+            alt="redirection vers le code de Dusko Stamenic  "
+          >
+            Dusko Stamenic et webdevlessons
+          </a>
+        </p>
+        <ParallaxHero />
       </section>
     </div>
   )
