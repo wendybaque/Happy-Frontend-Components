@@ -1,0 +1,59 @@
+.wave-body {
+  font-family: "poppins";
+  background: #111827;
+  padding: 6.6vw;
+  border-radius: 10px;
+  height: 20vh;
+  width: 30vw;
+}
+.wave-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wave-container h2 {
+  font-size: 5vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.wave-container h2:nth-child(1) {
+  color: pink;
+  -webkit-text-stroke: 2px red;
+}
+
+.wave-container h2:nth-child(2) {
+  color: red;
+  animation: wavy 4s ease-in-out infinite;
+}
+
+@keyframes wavy {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      26% 34%,
+      33% 20%,
+      44% 10%,
+      50% 21%,
+      64% 39%,
+      70% 42%,
+      100% 50%,
+      0% 100%
+    );
+  }
+  50% {
+    clip-path: polygon(
+      0% 50%,
+      15% 45%,
+      24% 36%,
+      31% 22%,
+      47% 10%,
+      54% 25%,
+      60% 36%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}

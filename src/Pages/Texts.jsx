@@ -1,6 +1,7 @@
 import React from "react";
 import NeonText from "../Components/NeonText";
 import RolloText from "../Components/RolloText";
+import WaveText from "../Components/WaveText";
 
 const Texts = () => {
   return (
@@ -38,6 +39,20 @@ const Texts = () => {
           </a>
         </p>
         <RolloText/>
+      </section>
+
+      <section className="flex flex-col">
+        <h2 className="font-semibold text-purple-500">Wavy Text</h2>
+        <p className="pb-10">
+          Based on{" "}
+          <a
+            href="https://www.instagram.com/p/CmL28xljX6p/"
+            alt="redirection vers le code de vlt_dev"
+          >
+            vlt_dev
+          </a>
+        </p>
+        <WaveText/>
       </section>
     </div>
   );
