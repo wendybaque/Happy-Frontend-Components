@@ -5,6 +5,7 @@ import GlassCard from "../Components/GlassCard";
 import HeapCard from "../Components/HeapCard";
 import HoverEffect from "../Components/HoverEffect";
 import InfiniteCarousel from "../Components/InfiniteCarousel";
+import ProfileCard from "../Components/ProfileCard";
 
 const Cards = () => {
   return (
@@ -109,6 +110,22 @@ const Cards = () => {
             </a>
           </p>
           <GlassCard />
+        </section>
+
+        <section className="flex flex-col">
+          <h2 className="font-semibold text-purple-500 m-4">
+            Glass effect card
+          </h2>
+          <p className="m-4">
+            Based on{" "}
+            <a
+              href="https://www.instagram.com/p/Cdr1GJpO9ZS/"
+              alt="redirection vers le code de codewith_random"
+            >
+              codewith_random
+            </a>
+          </p>
+          <ProfileCard />
         </section>
 
        
