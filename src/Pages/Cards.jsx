@@ -114,7 +114,7 @@ const Cards = () => {
 
         <section className="flex flex-col">
           <h2 className="font-semibold text-purple-500 m-4">
-            Glass effect card
+            Profile card
           </h2>
           <p className="m-4">
             Based on{" "}
