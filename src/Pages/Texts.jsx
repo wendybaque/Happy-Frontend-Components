@@ -1,4 +1,5 @@
 import React from "react";
+import FlipText from "../Components/FlipText";
 import Glitter from "../Components/Glitter";
 import NeonText from "../Components/NeonText";
 import RolloText from "../Components/RolloText";
@@ -57,17 +58,31 @@ const Texts = () => {
       </section>
 
       <section className="flex flex-col">
-        <h2 className="font-semibold text-purple-500">Wavy Text</h2>
+        <h2 className="font-semibold text-purple-500">Glitter Text</h2>
         <p className="pb-10">
           Based on{" "}
           <a
-            href="https://www.instagram.com/p/CmL28xljX6p/"
-            alt="redirection vers le code de vlt_dev"
+            href="https://codepen.io/lenasta92579651/pen/qBoEVzG"
+            alt="redirection vers le code de Lena Stanley"
           >
-            vlt_dev
+            Lena Stanley
           </a>
         </p>
         <Glitter/>
+      </section>
+
+      <section className="flex flex-col">
+        <h2 className="font-semibold text-purple-500">Flip Text</h2>
+        <p className="pb-10">
+          Based on{" "}
+          <a
+            href="https://codepen.io/lenasta92579651/pen/xxYqGVo"
+            alt="redirection vers le code de Lena Stanley"
+          >
+            Lena Stanley
+          </a>
+        </p>
+        <FlipText/>
       </section>
     </div>
   );
