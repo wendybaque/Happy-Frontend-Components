@@ -45,32 +45,32 @@ const Various = () => {
       </div>
 
       <section className="flex flex-col">
-          <h2 className="font-semibold text-purple-500">Animated colour text</h2>
-          <p className="pb-10">
-            Based on{" "}
-            <a
-              href="https://www.instagram.com/p/Cj7jr7KD5cU/"
-              alt="redirection vers le code de vlt_dev"
-            >
-              vlt_dev code
-            </a>
-          </p>
-          <AnimatedColourText />
-        </section>
+        <h2 className="font-semibold text-purple-500">Animated colour text</h2>
+        <p className="pb-10">
+          Based on{" "}
+          <a
+            href="https://www.instagram.com/p/Cj7jr7KD5cU/"
+            alt="redirection vers le code de vlt_dev"
+          >
+            vlt_dev code
+          </a>
+        </p>
+        <AnimatedColourText />
+      </section>
 
-              <section className="flex flex-col">
-          <h2 className="font-semibold text-purple-500">This is the blob !</h2>
-          <p className="pb-10">
-            Based on{" "}
-            <a
-              href="https://www.instagram.com/p/Cl6MYvOjFRN/"
-              alt="redirection vers le code de vfrontendcharm"
-            >
-              frontendcharm
-            </a>
-          </p>
-          <Blob/>
-        </section>
+      <section className="flex flex-col">
+        <h2 className="font-semibold text-purple-500">This is the blob !</h2>
+        <p className="pb-10">
+          Based on{" "}
+          <a
+            href="https://www.instagram.com/p/Cl6MYvOjFRN/"
+            alt="redirection vers le code de vfrontendcharm"
+          >
+            frontendcharm
+          </a>
+        </p>
+        <Blob />
+      </section>
     </div>
   );
 };

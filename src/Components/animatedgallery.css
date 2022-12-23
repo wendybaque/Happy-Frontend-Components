@@ -32,7 +32,7 @@
   grid-row: 1;
   justify-self: end;
   animation: moveHorizontal 8.5s 0.5s 1, shrinkHorizontal 2s 9s ease-in 1;
-  animation-fill-mode:forwards;
+  animation-fill-mode: forwards;
 }
 
 .gallery img:nth-child(2) {

@@ -1,5 +1,6 @@
 import React from 'react'
 import BouncingLoader from '../Components/BouncingLoader'
+import Loader from '../Components/Loader'
 
 const Loaders = () => {
   return (
@@ -19,6 +20,20 @@ const Loaders = () => {
         </a>
       </p>
         <BouncingLoader />
+    </section>
+
+    <section className="flex flex-col w-full m-12">
+      <h2 className="m-2 font-semibold text-purple-500">Animated bouncing loader</h2>
+      <p>
+        Based on{" "}
+        <a
+          href="https://www.instagram.com/p/Cl_ZoLJjHqf/"
+          alt="redirection vers le code de jgancademy"
+        >
+          jgancademy code
+        </a>
+      </p>
+        <Loader />
     </section>
     </div>
   )

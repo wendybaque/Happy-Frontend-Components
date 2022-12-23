@@ -11,7 +11,7 @@
   height: 20px;
   position: absolute;
   border-radius: 50%;
-  background-color: blue;
+  background-color: palevioletred;
   left: 15%;
   transform-origin: 50%;
   animation: bouncing-circle 0.5s alternate infinite ease;
@@ -49,7 +49,7 @@
   width: 20px;
   height: 4px;
   border-radius: 50%;
-  background-color: rgba(114, 100, 240, 0.5);
+  background-color: rgba(240, 100, 221, 0.5);
   position: absolute;
   top: 62px;
   transform-origin: 50%;
