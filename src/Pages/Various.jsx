@@ -71,6 +71,20 @@ const Various = () => {
         </p>
         <Blob />
       </section>
+
+      <section className="flex flex-col">
+        <h2 className="font-semibold text-purple-500">This is the blob !</h2>
+        <p className="pb-10">
+          Based on{" "}
+          <a
+            href="https://www.instagram.com/p/Cl6MYvOjFRN/"
+            alt="redirection vers le code de vfrontendcharm"
+          >
+            frontendcharm
+          </a>
+        </p>
+
+      </section>
     </div>
   );
 };

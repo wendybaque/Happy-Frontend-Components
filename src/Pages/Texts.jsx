@@ -1,4 +1,5 @@
 import React from "react";
+import Glitter from "../Components/Glitter";
 import NeonText from "../Components/NeonText";
 import RolloText from "../Components/RolloText";
 import WaveText from "../Components/WaveText";
@@ -53,6 +54,20 @@ const Texts = () => {
           </a>
         </p>
         <WaveText/>
+      </section>
+
+      <section className="flex flex-col">
+        <h2 className="font-semibold text-purple-500">Wavy Text</h2>
+        <p className="pb-10">
+          Based on{" "}
+          <a
+            href="https://www.instagram.com/p/CmL28xljX6p/"
+            alt="redirection vers le code de vlt_dev"
+          >
+            vlt_dev
+          </a>
+        </p>
+        <Glitter/>
       </section>
     </div>
   );

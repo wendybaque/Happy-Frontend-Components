@@ -1,0 +1,29 @@
+.glitter-body {
+  height: 50vh;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #111827 0%, #111827 100%);
+}
+
+.glitter-text-container {
+  position: relative;
+}
+
+.glitter-text {
+  font-size: 150px;
+  font-weight: 500;
+  margin: auto;
+  font-family: 'poppins';
+  background-image: repeating-radial-gradient(circle at 20% 75%, #111827, #ffbe0b 0.0009px);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+  filter: contrast(140%) brightness(1.5);
+}
+
+.glitter {
+  position: absolute;
+  z-index:-2;
+}
