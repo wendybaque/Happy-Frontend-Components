@@ -5,6 +5,7 @@ import Glitter from "../Components/Glitter";
 import NeonText from "../Components/NeonText";
 import RolloText from "../Components/RolloText";
 import WaveText from "../Components/WaveText";
+import GradientStroke from "../Components/GradientStroke";
 
 const Texts = () => {
   return (
@@ -92,12 +93,26 @@ const Texts = () => {
           Based on{" "}
           <a
             href="https://codepen.io/frontendcharm/pen/yLKYavK"
-            alt="redirection vers le code d'Ariba Madakia'"
+            alt="redirection vers le code d'Ariba Madakia"
           >
             Ariba Madakia
           </a>
         </p>
         <AnimatedBg/>
+      </section>
+
+      <section className="flex flex-col">
+        <h2 className="font-semibold text-purple-500">Gradient Stroke Text</h2>
+        <p className="pb-10">
+          Based on{" "}
+          <a
+            href="https://codepen.io/lenasta92579651/pen/RwjzgMY"
+            alt="redirection vers le code de Lena Stanley"
+          >
+            Lena Stanley
+          </a>
+        </p>
+        <GradientStroke/>
       </section>
     </div>
   );

@@ -3,6 +3,7 @@ import AnimatedColourText from "../Components/AnimatedColourText";
 import Blob from "../Components/Blob";
 import HeartBeat from "../Components/HeartBeat";
 import Overlap from "../Components/Overlap";
+import Valentine from "../Components/Valentine";
 
 const Various = () => {
   return (
@@ -64,12 +65,26 @@ const Various = () => {
           Based on{" "}
           <a
             href="https://www.instagram.com/p/Cl6MYvOjFRN/"
-            alt="redirection vers le code de vfrontendcharm"
+            alt="redirection vers le code de frontendcharm"
           >
             frontendcharm
           </a>
         </p>
         <Blob />
+      </section>
+
+      <section className="flex flex-col">
+        <h2 className="font-semibold text-purple-500">This is the blob !</h2>
+        <p className="pb-10">
+          Based on{" "}
+          <a
+            href="https://codepen.io/lenasta92579651/pen/ExwdVOJ"
+            alt="redirection vers le code de Lena Stanley"
+          >
+            Lena Stanley
+          </a>
+        </p>
+        <Valentine />
       </section>
     </div>
   );

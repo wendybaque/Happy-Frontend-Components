@@ -1,0 +1,28 @@
+.gradient-stroke-body {
+  display: flex;
+  height: 20vh;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  font-family: "poppins";
+  background-color: #111827;
+}
+
+.gradient-stroke {
+  font-size: 80px;
+  font-family: "poppins";
+  background-image: linear-gradient(
+    69.7deg,
+    rgba(244, 37, 243, 1) 1.4%,
+    rgba(244, 87, 1, 1) 36.2%,
+    rgba(255, 204, 37, 1) 72.2%,
+    rgba(20, 196, 6, 1) 113%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: 7px;
+  padding: 10px;
+  letter-spacing: 5px;
+  filter: brightness(1.3);
+}
