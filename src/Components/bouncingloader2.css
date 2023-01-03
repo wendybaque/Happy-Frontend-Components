@@ -1,0 +1,49 @@
+.bouncing-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  background: #201A35;
+  font-family: "poppins";
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.bouncingcircles {
+  width: 30px;
+  height: 30px;
+  animation: bounce 1s 0.7s linear infinite;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.circle-1 {
+  background-color: pink;
+}
+
+.circle-2 {
+  background-color: pink;
+  animation-delay: 0.2s;
+}
+
+.circle-3 {
+  background-color: pink;
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  0%,
+  50%,
+  100% {
+    transform: scale(1);
+    filter: blur(0px);
+  }
+  25% {
+    transform: scale(0.6);
+  }
+  75% {
+    transform: scale(1.4);
+    background-color: violet;
+  }
+}
