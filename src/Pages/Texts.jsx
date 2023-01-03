@@ -1,4 +1,5 @@
 import React from "react";
+import AnimatedBg from "../Components/AnimatedBg";
 import FlipText from "../Components/FlipText";
 import Glitter from "../Components/Glitter";
 import NeonText from "../Components/NeonText";
@@ -83,6 +84,20 @@ const Texts = () => {
           </a>
         </p>
         <FlipText/>
+      </section>
+
+      <section className="flex flex-col">
+        <h2 className="font-semibold text-purple-500">Animated Background Text</h2>
+        <p className="pb-10">
+          Based on{" "}
+          <a
+            href="https://codepen.io/frontendcharm/pen/yLKYavK"
+            alt="redirection vers le code d'Ariba Madakia'"
+          >
+            Ariba Madakia
+          </a>
+        </p>
+        <AnimatedBg/>
       </section>
     </div>
   );

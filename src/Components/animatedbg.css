@@ -1,0 +1,46 @@
+.animated-body {
+  display: flex;
+  height: 20vh;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  font-family: "poppins";
+  background-color: #111827;
+}
+
+.animated-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animated-wrapper h1 {
+  margin: 0;
+  font-size: 150px;
+  color: rgba(225, 225, 225, 0.01);
+  background-image: url("https://picsum.photos/id/974/700");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  animation: animatebg 15s ease-in-out infinite;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+@keyframes animatebg {
+  0%,
+  100% {
+    background-position: left top;
+  }
+  25% {
+    background-position: right bottom;
+  }
+  50% {
+    background-position: left bottom;
+  }
+  75% {
+    background-position: right top;
+  }
+}
