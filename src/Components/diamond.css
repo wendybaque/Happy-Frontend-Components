@@ -1,0 +1,117 @@
+.diamond-body-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 30vh;
+    background: #201A35;
+    font-family: "poppins";
+    border-radius: 10px;
+}
+
+.diamond-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50vh;
+    background-color: #15616d;
+  }
+  
+  .diamond-container {
+    position: relative;
+  }
+  
+  .diamond {
+    position: relative;
+    left:-100px;
+    top:-50px;
+    filter: drop-shadow(0 0 100px white);
+  }
+  
+  .diamond-top {
+    position: relative;
+  }
+  
+  .diamond-top:before, .diamond-top:after {
+    content:"";
+    position: absolute;
+    width:0;
+    height:0;
+    border-style: solid;
+    top:0;
+  }
+  
+  .diamond-top:before {
+    border-color: transparent transparent #b4e3e6 transparent;
+    border-width: 0 25px 30px 25px;
+    filter: drop-shadow(50px 0 #94d7d9) drop-shadow(50px 0 #b4e3e6);
+  }
+  
+  .diamond-top:after {
+    border-color: #d8f8f9 transparent transparent transparent;
+    border-width: 30px 25px 0 25px;
+    left:25px;
+    filter: drop-shadow(50px 0 #d8f8f9);
+  }
+  
+  .diamond-bottom, .diamond-bottom:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  .diamond-bottom {
+    left: 0;
+    top: 30px;
+    border-color: #70ced4 transparent transparent transparent;
+    border-width: 100px 75px 0 75px;  
+  }
+  
+  .diamond-bottom:before {
+    content:"";
+    border-color: #b4e3e6 transparent transparent transparent;
+    border-width: 100px 25px 0 25px;  
+    top:-100px;
+    left:-25px;
+  }
+  
+  .diamond-bottom:after {
+    content:"";
+    position: absolute;
+    border-radius:50%;
+    width: 100px;
+    height:10px;
+    background-color: #b4e3e6;
+    top:-135px;
+    left:-50px;
+  }
+  
+  .sparkles {
+    z-index:2;
+    position: absolute;
+  }
+  
+  .one {
+    position:absolute;
+    font-size:40px;
+    color: transparent;
+    text-shadow: 0 0 white, -115px -75px white;
+    animation: shine .5s linear infinite;
+  }
+  
+  .two {
+    position: absolute;
+    color: transparent;
+    font-size: 25px;
+    left:-65px;
+    top:45px;
+    text-shadow: 0 0 white, 55px -115px white;
+    animation: shine .5s linear infinite .25s;
+  }
+  
+  @keyframes shine {
+    from {opacity:1;}
+    to {opacity:0;}
+  }
+  

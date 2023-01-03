@@ -4,6 +4,7 @@ import Blob from "../Components/Blob";
 import HeartBeat from "../Components/HeartBeat";
 import Overlap from "../Components/Overlap";
 import Valentine from "../Components/Valentine";
+import Diamond from "../Components/Diamond";
 
 const Various = () => {
   return (
@@ -74,7 +75,7 @@ const Various = () => {
       </section>
 
       <section className="flex flex-col">
-        <h2 className="font-semibold text-purple-500">This is the blob !</h2>
+        <h2 className="font-semibold text-purple-500">Valentine's card</h2>
         <p className="pb-10">
           Based on{" "}
           <a
@@ -85,6 +86,20 @@ const Various = () => {
           </a>
         </p>
         <Valentine />
+      </section>
+
+      <section className="flex flex-col">
+        <h2 className="font-semibold text-purple-500">Diamond item</h2>
+        <p className="pb-10">
+          Based on{" "}
+          <a
+            href="https://codepen.io/lenasta92579651/pen/rNGEZJL"
+            alt="redirection vers le code de Lena Stanley"
+          >
+            Lena Stanley
+          </a>
+        </p>
+        <Diamond />
       </section>
     </div>
   );
