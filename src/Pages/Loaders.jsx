@@ -2,6 +2,7 @@ import React from "react";
 import BouncingLoader from "../Components/BouncingLoader";
 import Loader from "../Components/Loader";
 import BouncingLoader2 from "../Components/BouncingLoader2";
+import Pencil from "../Components/Pencil";
 
 const Loaders = () => {
   return (
@@ -27,6 +28,22 @@ const Loaders = () => {
           </a>
         </p>
         <BouncingLoader />
+      </section>
+
+      <section className="flex flex-col w-full m-12">
+        <h2 className="m-2 font-semibold text-purple-500">
+          Pencil loader
+        </h2>
+        <p>
+          Based on{" "}
+          <a
+            href="https://uiverse.io/gustavofusco/rare-pug-90"
+            alt="redirection vers le code de @gustavofusco sur universe.io"
+          >
+            @gustavofusco
+          </a>
+        </p>
+        <Pencil />
       </section>
 
       <section className="flex flex-col w-full m-12">

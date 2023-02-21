@@ -11,7 +11,7 @@ const Buttons = () => {
       </p>
 
       <section className="flex flex-col w-full m-12">
-
+  
       </section>
     </div>
   );
