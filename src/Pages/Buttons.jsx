@@ -1,4 +1,5 @@
 import React from "react";
+import UniverseButton from "../Components/UniverseButton";
 
 const Buttons = () => {
   return (
@@ -11,7 +12,19 @@ const Buttons = () => {
       </p>
 
       <section className="flex flex-col w-full m-12">
-  
+      <h2 className="font-semibold text-purple-500 m-4">
+          Buttons with hover effect
+          </h2>
+          <p className="m-4">
+            Based on{" "}
+            <a
+              href="https://uiverse.io/buttons"
+              alt="redirection vers le code de universe.io"
+            >
+              universe.io buttons
+            </a>
+          </p>
+          <UniverseButton />
       </section>
     </div>
   );
