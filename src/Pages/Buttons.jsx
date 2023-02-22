@@ -1,4 +1,5 @@
 import React from "react";
+import FlagButtons from "../Components/FlagButtons";
 import UniverseButton from "../Components/UniverseButton";
 
 const Buttons = () => {
@@ -12,19 +13,35 @@ const Buttons = () => {
       </p>
 
       <section className="flex flex-col w-full m-12">
-      <h2 className="font-semibold text-purple-500 m-4">
+        <h2 className="font-semibold text-purple-500 m-4">
           Buttons with hover effect
-          </h2>
-          <p className="m-4">
-            Based on{" "}
-            <a
-              href="https://uiverse.io/buttons"
-              alt="redirection vers le code de universe.io"
-            >
-              universe.io buttons
-            </a>
-          </p>
-          <UniverseButton />
+        </h2>
+        <p className="m-4">
+          Based on{" "}
+          <a
+            href="https://uiverse.io/buttons"
+            alt="redirection vers le code de universe.io"
+          >
+            universe.io buttons
+          </a>
+        </p>
+        <UniverseButton />
+      </section>
+
+      <section className="flex flex-col w-full m-12">
+        <h2 className="font-semibold text-purple-500 m-4">
+          Buttons with flag effect
+        </h2>
+        <p className="m-4">
+          Based on{" "}
+          <a
+            href="https://codepen.io/codingstella/pen/oNMzYrX"
+            alt="redirection vers le code de coding stella"
+          >
+            Coding Stella code
+          </a>
+        </p>
+        <FlagButtons />
       </section>
     </div>
   );

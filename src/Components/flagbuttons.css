@@ -1,0 +1,55 @@
+.flag-body {
+  margin: 0;
+  height: 50vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #201a35;
+}
+
+.flag-ul {
+  padding: 0;
+  font-family: "poppins";
+  list-style-type: none;
+}
+
+.flag-ul .flag-li {
+  font-family: "poppins";
+  box-sizing: border-box;
+  width: 15em;
+  height: 3em;
+  font-size: 20px;
+  border-radius: 0.5em;
+  margin: 0.5em;
+  box-shadow: 0 0 1em #201a35;
+  color: white;
+  text-transform: capitalize;
+  line-height: 3em;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.flag-ul .flag-li:nth-child(odd) {
+  background: linear-gradient(to right, pink, purple);
+  text-align: left;
+  padding-left: 10%;
+  transform: perspective(500px) rotateY(45deg);
+}
+
+.flag-ul .flag-li:nth-child(even) {
+  background: linear-gradient(to left, pink, purple);
+  text-align: right;
+  padding-right: 10%;
+  transform: perspective(500px) rotateY(-45deg);
+}
+
+.flag-ul .flag-li:nth-child(odd):hover {
+  transform: perspective(200px) rotateY(45deg);
+  padding-left: 5%;
+}
+
+.flag-ul .flag-li:nth-child(even):hover {
+  transform: perspective(200px) rotateY(-45deg);
+  padding-right: 5%;
+}
