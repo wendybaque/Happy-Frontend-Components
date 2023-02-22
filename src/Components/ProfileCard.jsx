@@ -7,7 +7,7 @@ const ProfileCard = () => {
       <div className="profile-card">
         <div className="img-box">
           <img
-            src="https://wendybaquedevweb.netlify.app/static/media/photocv.a23453e64da25bedaaf3.png"
+          src="https://www.babelio.com/users/AVT_Wendy-Baque_6365.jpg"
             alt="Wendy Baqué"
           />
         </div>

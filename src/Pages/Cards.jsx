@@ -6,6 +6,7 @@ import HeapCard from "../Components/HeapCard";
 import HoverEffect from "../Components/HoverEffect";
 import InfiniteCarousel from "../Components/InfiniteCarousel";
 import ProfileCard from "../Components/ProfileCard";
+import TriangleCard from "../Components/TriangleCard";
 
 const Cards = () => {
   return (
@@ -128,7 +129,21 @@ const Cards = () => {
           <ProfileCard />
         </section>
 
-       
+        <section className="flex flex-col">
+          <h2 className="font-semibold text-purple-500 m-4">
+            Triangle profile card
+          </h2>
+          <p className="m-4">
+            Based on{" "}
+            <a
+              href="https://www.instagram.com/p/CnEkW47AHrO/"
+              alt="redirection vers le code de kyngcoder"
+            >
+              kyngcoder
+            </a>
+          </p>
+          <TriangleCard/>
+        </section>
       </div>
     </div>
   );
