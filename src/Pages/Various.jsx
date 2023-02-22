@@ -5,6 +5,7 @@ import HeartBeat from "../Components/HeartBeat";
 import Overlap from "../Components/Overlap";
 import Valentine from "../Components/Valentine";
 import Diamond from "../Components/Diamond";
+import Rocket from "../Components/Rocket";
 
 const Various = () => {
   return (
@@ -100,6 +101,20 @@ const Various = () => {
           </a>
         </p>
         <Diamond />
+      </section>
+
+      <section className="flex flex-col">
+        <h2 className="font-semibold text-purple-500">Flying rock</h2>
+        <p className="pb-10">
+          Based on{" "}
+          <a
+            href="https://codepen.io/frontendcharm/pen/qByxKQv"
+            alt="redirection vers le code de Frontend charm"
+          >
+            Frontend charm
+          </a>
+        </p>
+        <Rocket/>
       </section>
     </div>
   );
