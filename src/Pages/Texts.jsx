@@ -6,6 +6,7 @@ import NeonText from "../Components/NeonText";
 import RolloText from "../Components/RolloText";
 import WaveText from "../Components/WaveText";
 import GradientStroke from "../Components/GradientStroke";
+import RainbowText from "../Components/RainbowText";
 
 const Texts = () => {
   return (
@@ -113,6 +114,20 @@ const Texts = () => {
           </a>
         </p>
         <GradientStroke/>
+      </section>
+
+      <section className="flex flex-col">
+        <h2 className="font-semibold text-purple-500">Rainbow Text</h2>
+        <p className="pb-10">
+          Based on{" "}
+          <a
+            href="https://codepen.io/codingstella/pen/PoaOOOb"
+            alt="redirection vers le code de Coding Stella"
+          >
+            Coding Stella code
+          </a>
+        </p>
+        <RainbowText/>
       </section>
     </div>
   );

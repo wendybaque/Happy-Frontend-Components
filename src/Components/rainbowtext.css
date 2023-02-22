@@ -1,0 +1,63 @@
+.rainbow-body {
+    margin: 0;
+    font-family: "poppins";
+    display: grid;
+    place-items: center;
+    line-height: 1;
+    height: 40vh;
+    width: 70vw;
+    border-radius: 10px;
+    background: #03051f;
+  }
+  
+  .rainbow-h1 {
+    font-weight: 900;
+    font-size: 190px;
+    font-style: italic;
+    letter-spacing: 0.04em;
+    margin: 0;
+    color: pink;
+    -webkit-text-stroke: 0.04em;
+    -webkit-text-stroke-color: black;
+    transform: skew(-10deg);
+    display: flex;
+  }
+  
+  .rainbow-h1 span {
+    --t: 0.17em;
+    display: block;
+    text-shadow: 0 0 darkorchid, 0 0 orange, 0 0 deeppink, 0 0 darkorchid,
+      0 0 turquoise;
+    animation: rainbow-animate 1800ms forwards var(--delay, 0ms);
+    transform: translate3d(var(--t), var(--t), 0);
+  }
+  
+  .rainbow-h1 span:nth-child(2) {
+    --delay: 300ms;
+  }
+  
+ .rainbow-h1 span:nth-child(3) {
+    --delay: 600ms;
+  }
+  
+  .rainbow-h1 span:nth-child(4) {
+    --delay: 900ms;
+  }
+  
+  .rainbow-h1 span:nth-child(5) {
+    --delay: 1200ms;
+  }
+  
+  .rainbow-h1 span:nth-child(6) {
+    --delay: 1500ms;
+  }
+  
+  @keyframes rainbow-animate {
+    to {
+      --t: 0.17em;
+      text-shadow: 0.05em 0.05em darkorchid, 0.08em 0.08em orange,
+        0.11em 0.11em deeppink, 0.14em 0.14em darkorchid, 0.17em 0.17em #3ad59f;
+    }
+  }
+
+  

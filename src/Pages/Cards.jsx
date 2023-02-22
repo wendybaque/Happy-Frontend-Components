@@ -13,7 +13,7 @@ const Cards = () => {
     <div>
       <div className="m-4 p-4 flex flex-col">
         <h1 className="flex flex-col items-center text-l font-semibold text-pink-500 font-poppins">
-          Inputs
+          Cards
         </h1>
         <p className="flex flex-col items-center text-l m-4">
           Cards with differents styles and designs
