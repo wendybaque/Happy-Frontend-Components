@@ -27,7 +27,6 @@ const Animations = () => {
         <AnimatedGallery />
       </section>
 
-
     </div>
   );
 };
