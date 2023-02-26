@@ -1,0 +1,31 @@
+.gradient-text-body {
+   margin: 5rem;
+}
+
+.gradient-text-animation {
+    transform: translate(-50%, -50%);
+    background: linear-gradient(-45deg, pink, pink, #2B0413, #2B0413, purple, purple);
+    background-size: 300%;
+    font-family: "poppins";
+    font-weight: 900;
+    font-size: 5vw;
+    letter-spacing: -5px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated_text 6s ease-in-out infinite;
+    -moz-animation: animated_text 6s ease-in-out infinite;
+    -webkit-animation: animated_text 6s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+    0% {
+        background-position: 0px 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0px 50%;
+    }
+}

@@ -7,6 +7,7 @@ import RolloText from "../Components/RolloText";
 import WaveText from "../Components/WaveText";
 import GradientStroke from "../Components/GradientStroke";
 import RainbowText from "../Components/RainbowText";
+import GradientTextAnimation from "../Components/GradientTextAnimation";
 
 const Texts = () => {
   return (
@@ -128,6 +129,20 @@ const Texts = () => {
           </a>
         </p>
         <RainbowText/>
+      </section>
+
+      <section className="flex flex-col">
+        <h2 className="font-semibold text-purple-500">Text gradient animation</h2>
+        <p className="pb-10">
+          Based on{" "}
+          <a
+            href="https://codepen.io/vlt_dev/pen/jOxpmyb"
+            alt="redirection vers le code de vlt_dev"
+          >
+            vlt_dev code
+          </a>
+        </p>
+        <GradientTextAnimation/>
       </section>
     </div>
   );
