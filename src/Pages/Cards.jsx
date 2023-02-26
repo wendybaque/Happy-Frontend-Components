@@ -1,4 +1,5 @@
 import React from "react";
+import CardHoverRound from "../Components/CardHoverRound";
 import FigcaptionHover from "../Components/FigcaptionHover";
 import FlipCard from "../Components/FlipCard";
 import GlassCard from "../Components/GlassCard";
@@ -114,9 +115,7 @@ const Cards = () => {
         </section>
 
         <section className="flex flex-col">
-          <h2 className="font-semibold text-purple-500 m-4">
-            Profile card
-          </h2>
+          <h2 className="font-semibold text-purple-500 m-4">Profile card</h2>
           <p className="m-4">
             Based on{" "}
             <a
@@ -142,7 +141,23 @@ const Cards = () => {
               kyngcoder
             </a>
           </p>
-          <TriangleCard/>
+          <TriangleCard />
+        </section>
+
+        <section className="flex flex-col">
+          <h2 className="font-semibold text-purple-500 m-4">
+            Card Hover with rounds
+          </h2>
+          <p className="m-4">
+            Based on{" "}
+            <a
+              href="https://www.instagram.com/p/Clu2DsquJRc/"
+              alt="redirection vers le code de webdesignuniversity              "
+            >
+              webdesignuniversity code
+            </a>
+          </p>
+          <CardHoverRound />
         </section>
       </div>
     </div>

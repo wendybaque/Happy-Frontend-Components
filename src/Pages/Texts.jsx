@@ -144,6 +144,7 @@ const Texts = () => {
         </p>
         <GradientTextAnimation/>
       </section>
+
     </div>
   );
 };
